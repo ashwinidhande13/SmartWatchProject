@@ -1,0 +1,153 @@
+
+<html>
+    <head>
+        <style>
+            div {margin:0;}
+            div {
+                max-width: 100%;
+                height: 100px;
+                background-color: #009688;
+                color:#ffffff;
+
+            }
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=submit] {
+                background-color: #000;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #009688;
+            }
+
+            input[type=reset] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=reset]:hover {
+                background-color: #009688;
+            }
+            .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+                width:400px;
+                height:800px;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .main {
+                padding: 16px;
+                margin-top: 30px;
+                height: 1500px; /* Used in this example to enable scrolling */
+            }
+            .footer{
+
+                background-color: #333;
+                color:#000;
+                width: 100%;
+
+            }
+            .button {
+                border-radius: 4px;
+                background-color: #000;
+                width:300px;
+                height: 50px;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 18px;
+                padding: 10px;
+
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        </style>
+        }
+    </head>
+
+    <body>
+
+
+        <div class="navbar" align="left"><h2><font color="white">
+                <a href="category.html">HOME</a>
+                <a href="contactus.jsp">CONTACT US </a>
+                <a href="aboutus.jsp">  </a>
+                <a href="index.jsp">LOGOUT</a></h2>
+            </font>
+        </div><br><br><br><br><br><br>
+    <center>
+        <font color="purple"><h2>TRACK YOUR ORDER:</h2></font>
+        <font color ="black"><h3>Thank you for shopping your order is in process.<br>
+            Expect delivery in 5-6 working days<br>
+    Keep shopping more:<br>
+    <form action="category.html" method="post" id="form2">
+        <button class="button" type="Submit" form="form2" value="next"><span>Shop: </span></button>  
+    </form>   
+    </h3></font>
+        </center>
+    </center>
+
+</body>
+</html>

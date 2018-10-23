@@ -1,0 +1,148 @@
+
+<html>
+    <head>
+        <style>
+            div {margin:0;}
+            div {
+                max-width: 100%;
+                height: 100px;
+                background-color: #009688;
+                color:#ffffff;
+
+            }
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=submit] {
+                background-color: #6b5b95;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #ff1a1a;
+            }
+
+            input[type=reset] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=reset]:hover {
+                background-color: #009688;
+            }
+            .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+                width:400px;
+                height:800px;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .main {
+                padding: 16px;
+                margin-top: 30px;
+                height: 1500px; /* Used in this example to enable scrolling */
+            }
+            .footer{
+
+                background-color: #333;
+                color:#000;
+                width: 100%;
+
+            }
+            .button {
+                border-radius: 4px;
+                background-color: #000;
+                width:300px;
+                height: 50px;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 18px;
+                padding: 10px;
+
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: relative;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        </style>
+        }
+    </head>
+
+    <body>
+
+        <div class="navbar"><center><h2><font color="Red">Digi</font>Watch</h2></center></div>
+        <br><br><br><br><br><br>
+        <h2><center><font color="#ff1a1a" >ANDROID WEAR</font></center></h2>
+        <img src="images/and1.jpg" align="left" height="250px " width="250px" /><br><br><br><font color="grey" ><h3>Android Wear is a version of Google's Android operating system designed for smartwatches and other wearables. By pairing with mobile phones running Android version 4.3 or newer, or iOS version 8.2 or newer with limited support from Google's pairing application, Android Wear integrates Google Assistant technology and mobile notifications into a smartwatch form factor. It also adds the ability to download applications from the Google Play Store.</h3></font>
+        <form action="productList5.jsp" id="form1"> 
+            <center>  <button class="button" type="submit" form="form1" value="Submit"><span>ANDROID WATCH</span></button></center> 
+        </form>
+        <br><br><br>
+        <hr>
+
+        <h2><center><font color="#ff1a1a" >APPLE WEAR</font></center></h2>
+        <img src="images/apple1.png" align="left" height="250px " width="250px"/><br><br><br><h3><font color="grey" >Apple Watch (stylized as WATCH) is a line of smartwatches developed, designed, and marketed by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</font></h3>
+        <form action="productList1.jsp" id="form2"> 
+            <center><button class="button" type="submit" form="form2" value="Submit"><span>APPLE WATCH</span></button></center>
+        </form>	
+    </body>
+</html>
